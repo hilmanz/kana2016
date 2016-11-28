@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 600px;
+  color: #222;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  /* Fix for preserving font sizes on iPhones (at least) */
+   -webkit-text-size-adjust: 100%;
+}
+.bgred{
+  background: #c1272c;
+}
+#card{
+  overflow: hidden;
+  width: 100%;
+  max-width: 429px;
+  margin: 0 auto;
+  position:absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#card img.textcard{
+  max-width: 278px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.share{
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 65px;
+}
+.fbshare{
+  background: url(../images/fb.png) no-repeat;
+  display: inline-block;
+  width: 50px; height: 68px;
+  margin: 0 10px;
+  position: relative;
+}
+.fbsharewhite{
+  background: url(../images/fb2.png) no-repeat;
+}
+.fb-share-button{
+  opacity: 0;
+  width: 58px; height: 20px;
+  position: absolute;
+  top: 23px; left: 0;
+}
+.download{
+  background: url(../images/download.png) no-repeat;
+  display: inline-block;
+  width: 50px; height: 68px;
+  vertical-align: top;
+  margin: 0 10px;
+}
+.dwhite{
+  background: url(../images/download2.png) no-repeat;
+}
+.anim{
+  position: absolute;
+  z-index: 1000;
+  top: -100px;
+}
+#a1{
+  left: 100px;
+}
+#a2{
+  left: 250px;
+}
+#a3{
+  right: 50px;
+}
+
+#a4{
+  left: 200px;
+}
+#a5{
+  left: 70px;
+}
+#a6{
+  right: 80px;
+}.slide-to-unlock {
+  position: relative;
+  margin: 0 auto 50px auto;
+  width: 400px;
+  height: 80px;
+  vertical-align: top;
+}
+
+.slide-to-unlock .dragdealer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 0;
+  background: none;
+  height: auto;
+}
+
+.slide-to-unlock .handle {
+  height: 100%;
+  border-radius: 0;
+}
+
+.slide-to-unlock .disabled {
+  background: none;
+}
+
+.slide-to-unlock .slide-text {
+  background: url(../images/slide.png) no-repeat center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 80px;
+  font-size: 30px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.new-slider {
+  background:none;
+}
+
+.new-slider .dragdealer {
+  overflow: hidden;
+}
+
+.new-slider .handle {
+  width: 200%;
+}
+
+.new-slider .slide-text {
+  left: 50%;
+  width: 50%;
+  color: #9999aa;
+}

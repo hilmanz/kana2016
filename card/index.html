@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width">
+        <title>Merry christmas and Happy new year</title>
+        <link href="js/lib/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+        <script src="js/lib/jquery-1.10.2.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.9.0/TweenMax.min.js"></script>
+        <script src="js/dragdealer/dragdealer.js"></script>
+        <link  href="js/dragdealer/dragdealer.css" rel="stylesheet" type="text/css">
+        <script src="js/script.js"></script>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <meta property="og:url"           content="http://kana.co.id/" />
+        <meta property="og:type"          content="website" />
+        <meta property="og:title"         content="Digital Marketing Agency in Jakarta, Indonesia | KANA CIPTA MEDIA" />
+        <meta property="og:description"   content="KANA is a digital marketing agency in Jakarta, Indonesia and the Philippines" />
+        <meta property="og:image"         content="http://kana.co.id/card/images/card1.jpg" />
+</head>
+<body>
+<div id="card">
+  <img src="images/welcome.png">
+  <img id="a1" class="anim" src="images/a1.png">
+  <img id="a2" class="anim" src="images/a2.png">
+  <img id="a3" class="anim" src="images/a3.png">
+  <img id="a4" class="anim" src="images/a1.png">
+  <img id="a5" class="anim" src="images/a2.png">
+  <img id="a6" class="anim" src="images/a3.png">
+  <div class="slide-to-unlock new-slider">
+    <div id="slide-to-unlock-new" class="dragdealer">
+      <div class="handle">
+        <div class="slide-text">
+        </div>
+      </div>
+    </div>
+  </div>
+  <img src="images/logo.png">
+</div>
+
+    <script type="text/javascript">
+        TweenMax.to("#a1",1.5, {y:400,delay:1,autoAlpha:0,repeat:10000});
+        TweenMax.to("#a2",1.5, {y:500,delay:2,autoAlpha:0,repeat:10000});
+        TweenMax.to("#a3",1.5, {y:600,delay:3,autoAlpha:0,repeat:10000});
+        TweenMax.to("#a4",1.5, {y:500,delay:4,autoAlpha:0,repeat:10000});
+        TweenMax.to("#a5",1.5, {y:700,delay:2,autoAlpha:0,repeat:10000});
+        TweenMax.to("#a6",1.5, {y:600,delay:2,autoAlpha:0,repeat:10000});
+    </script>
+</body>
+</html>
